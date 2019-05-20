@@ -1,3 +1,5 @@
+#Inte klar
+
 def swap(element1, element2):
     temp = element1
     element1 = element2
