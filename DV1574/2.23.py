@@ -8,7 +8,7 @@ def swap(element1, element2):
 alphabet = ["%s"%(chr(a))for a in range(ord("A"),ord("Z")+ 1, 1)]
 word = "PLAYFAIR"
 
-for a in range(0 len(word), 1):
+for a in range(0, len(word), 1):
     swap(alphabet[a], aword[])
 
 
