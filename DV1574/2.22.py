@@ -9,7 +9,7 @@ def transpose(matrix):
             a = column
 
     if matrix_t:    
-        matrix_t  = [[matrix[a][b] for a in range( 0, column, 1)]for b in range(0, row, 1)]
+        matrix_t  = [[matrix[a][b] for a in range(0, column, 1)]for b in range(0, row, 1)]
     return matrix_t
 
 A = [[1,2,3],[4,5,6]]
